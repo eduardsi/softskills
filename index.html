@@ -24,6 +24,7 @@
         padding: 0.5em;
         transform: rotate(-45deg);
       }      
+      .cial img { width: 270px; }
       .hide { visibility: hidden; }
       .remark-slide-content { background-size: 100%;}
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
@@ -128,12 +129,13 @@ class: center, middle
 - Actually having time for them.
 - Listening.
 - Energizing.
-- Pair (anything)
+- Pairing with a more experienced person
+- Turning a person into a mentor/trainer
 - Asking: what can I do to help you do your best work?
 - Spreading optimism and good vibes
 - Sharing books
 - Sharing success
-- Mentoring
+- Delegating tasks that maximize learning
 
 ---
 class: center, middle
@@ -542,13 +544,14 @@ class: center, middle
 
 --
 
-### – Parroting ("then the script killed the production!” all you have to say is "killed the production?")
---
-
 ### – Nodding
 --
 
 ### – Looking with curiocity
+
+--
+
+### – Parroting ("then the script killed the production!” all you have to say is "killed the production?")
 
 ---
 # Albert Mehrabian's Rule:
@@ -657,9 +660,8 @@ class: center, middle, almostblack
 
 ---
 class: bad, center, middle
-### Newcomer after the conference:
-## — Let's use this new cool piece of tech?
-## — We have tried already and it didn't work out.
+## — Let's use Docker on production?
+## — We've tried already and it didn't work.
 ???
 - Killed idea
 - Killed future ideas (no appreciation here)
@@ -667,8 +669,8 @@ class: bad, center, middle
 
 ---
 class: oki, center, middle
-## — Let's use this new cool technology?
-## — Excellent idea! Have you though about monitoring and troubleshooting challenges? We had serious problems with it!
+## — Let's use Docker on production?
+## — Thanks for raising this! Have you though about monitoring and troubleshooting challenges? We had serious problems with it!
 ???
 - give credit-
 - the power of question! Keeps idea alive. Motivates for more ideas. Challenge - what if she find a solution?
@@ -676,7 +678,7 @@ class: oki, center, middle
 
 ---
 class: bad, center, middle
-## — Let's reformat the code and replace tabs with spaces!!!
+## — Let's replace all tabs with spaces!!!
 ## — Interesting idea, but do you know that it will obfuscate all code history?
 ???
 Killed with BUT
@@ -690,7 +692,7 @@ class: center, middle, almostblack
 
 ---
 class: bad, center, middle
-## — Let's reformat the code and replace tabs with spaces!!!
+## — Let's replace all tabs with spaces!!!
 ## — Interesting idea. Check whether it will obfuscate all code history.
 ???
 Killed with BUT
@@ -699,7 +701,7 @@ Killed with BUT
 ---
 class: oki, center, middle
 ## — Let's reformat the code and replace tabs with spaces!!!
-## — Interesting idea! How it will impact our code history?
+## — Interesting idea! How would it impact our code history?
 
 ---
 class: bad, center, middle
@@ -775,34 +777,30 @@ class: center, middle, oki
 ---
 class: center, middle, oki
 # I will -------- by -------- and drop you a message
-### (observer pattern, 1 person involved)
+### (1 person involved)
 
 ---
-class: center, middle, oki
-# I have no clue how it works. I will figure it out by tomorrow and will let know.
-
----
-class: center, middle, oki
-# I can't tell you the estimate. I will talk to the team today and get back to you tommorrow.
-
----
-class: middle, center
-# If you can't give a date, give a date for a date.
-
----
-class: middle, center
+class: middle, center, bad
 # - Johnny, can you clean up this mess?
 
 ---
-class: middle, center
+class: middle, center, bad
 # - Johnny, will you clean up this mess?
 
 ---
-class: middle, center
+class: middle, center, oki
 # - Johnny, will you clean up this mess before pushing the code?
 ???
 - You can stop a person and ask him - will you do it?
 - "of I can't because". You found an impediment! Fix and replay.
+
+---
+class: middle, center, bad
+# We'll try delivering this in the current sprint.
+
+---
+class: middle, center, oki
+# We will deliver this in the current sprint.
 
 ---
 class: img100
@@ -830,17 +828,16 @@ class: center, middle
 ---
 class: center, middle, bad
 ## **@channel** who is going to show our product demo this Friday?
-
+### &nbsp;
 ---
 
 class: center, middle, oki
 ## **@johnny** what if you take leadership over product demo this Friday? 
-
+### &nbsp;
 ---
-
 class: center, middle, oki
-## **@johnny** ready to lead product demo this Friday? it's your turn!
-
+## **@johnny** ready to lead product demo this Friday? **it's your turn!**
+### pro-tip: good and well-known rules reduce unnecessary communication
 ---
 class: middle, bad
 ## — **@johnny** ready to lead product demo this Friday? it's your turn!
@@ -848,7 +845,7 @@ class: middle, bad
 
 ---
 class: center, middle
-# Always ask yourself: **what did I do to solve the problem**?
+# **What did I do to solve the problem**?
 
 ---
 class: middle, bad
@@ -869,16 +866,37 @@ class: middle, bad
 class: middle, oki
 ## — **@team** will you implement all 3 features in the next Sprint?
 ## — Impossible without adjusting the Sprint. What we can do instead is take feature 1 and implement 2 and 3 in the next Sprint. Alternatively, let's reduce current scope to squeeze 1, 2 and 3 in. The choice is yours.
+???
+provide options
 
 ---
 class: middle, bad
-## — **@johnny** can you help me onboard Alex? He is joining next week.
+## — **@johnny** will you help me onboard Alex? He is joining next week.
 ## — Sorry, not my responsibility.
 
 ---
 class: middle, oki
-## — **@johnny** can you help me onboard Alex? He is joining next week.
+## — **@johnny** will you help me onboard Alex? He is joining next week.
 ## — Sure thing, but it will take long time. Let me check what Jack is doing, as he has more expertise. I will let you know who'll take over tomorrow noon.
+
+
+---
+class: center, middle, bad
+# I can't give you the estimate now. .hide[I will talk to the team today and get back to you tommorrow.]
+
+---
+class: center, middle, oki
+# I can't give you the estimate now. I will talk to the team today and get back to you tommorrow.
+
+---
+class: center, middle, bad
+# Sorry, I have no clue what's the status of the issue. .hide[I will figure it out by tomorrow and will let know.]
+
+---
+class: center, middle, oki
+# Sorry, I have no clue what's the status of the issue. I will figure it out by tomorrow and will let know.
+???
+give date for a date.
 
 ---
 background-image:url(nutcache.png)
@@ -889,42 +907,58 @@ background-image:url(freshbooks.png)
 
 ---
 class: center, middle
-# What if people are distracting you all the time?
-### (good, you are probably a leader)
+## What if people are distracting me all the time? 🤔
 
 ---
-class: oki
-## — Man, my laptop is broken. Can you assist?
+class: center, middle, splash
+# Coaching
 
---
+---
+class: center, middle
+# How can I make this code cleaner?
 
-## — What did you do to solve the problem?
+---
+class: center, middle, bad
+# OK, let's see...
 
---
-## &nbsp;
-## — Man, my laptop is broken. 
+---
+class: center, middle, oki
+# What options do you see?
 
---
+---
+class: center, middle
+# Where are the passwords located?
 
-## — What you are going to do about it? 
+---
+class: center, middle, bad
+# Have you searched in Wiki?
 
---
+---
+class: center, middle, oki
+# Let me challenge you – where did you look already?
 
-## — No f$%#%@ clue!
+---
+class: center, middle
+# John writes crappy code. It's killing me.
 
---
+---
+class: center, middle, bad
+# Have you tried talking with John?
 
-## — What options do you see?
+---
+class: center, middle, oki
+# What are you going to do about it?
+
+
 
 ---
 class: center, middle, splash
 # Proposing a change
 
 ---
-# Exercise time!
-### — Propose introducing Slack to CEO of the company. Company is using email for communication.
-### or 
-### — Propose introducing Brown Bag Lunches to Engineering Manager.
+class: center, middle
+![:ribbon Exercise, small]
+# Propose introducing new chat system to CEO. Currently the company is using email for communication.
 
 ---
 class: center, middle
@@ -963,11 +997,12 @@ class: center, middle
 ### - Show something working
 
 ---
-# Exercise time!
-### — Replay!
+class: center, middle
+![:ribbon Exercise, small]
+# Repeat!
 
 ---
-class: center, middle
+class: center, middle, splash
 # How to deal with unsuppostive teammates
 
 ---
@@ -989,10 +1024,6 @@ class: center, middle
 
 ---
 class: center, middle
-# Pair until disagreement resolves.
-
----
-class: center, middle
 # Just build it.
 ### (and demo to those who is paying)
 ???
@@ -1000,43 +1031,92 @@ a story of successful prototype.
 
 ---
 class: center, middle, splash
-# Career
+# Influence and Persuation
+![](https://images.gr-assets.com/books/1391026083l/28815.jpg)
+
+---
+
+# Seven forces of influence
+
+--
+
+### - Authority
+
+--
+
+### - Belonging
+
+--
+
+### - Commitment/Consistency
+
+--
+
+### - Liking
+
+--
+
+### - Reciprocity
+
+--
+### 💡 In social psychology, reciprocity is a social norm of responding to a positive action with another positive action, rewarding kind actions. 
+--
+**As a social construct, reciprocity means that in response to friendly actions, people are frequently much nicer and much more cooperative than predicted by the self-interest model.**
+
+---
+
+# Seven forces of influence
+
+### - Authority
+### - Belonging
+### - Commitment/Consistency
+### - Liking
+### - Reciprocity
+### - Social Proof
+
+--
+
+### - Scarcity
+
+
+---
+class: center, middle, splash
+# Motivation and DRIVE
+.right-abs[![](https://images.gr-assets.com/books/1348931599l/6452796.jpg)]
+
+---
+background-size: 70%
+background-image:url(umbrella.png)
+
+---
+
+class: center, middle, splash
+# Wrapping up...
 
 ---
 class: center, middle
-# Validate your seniority.
+## Leadership is not necessarily about big things...
+### 🍿 **dev.tube/video/3PcL8UkorEg**
 
 ---
 class: center, middle
-# More fundamentals, fewer framework.
-
----
-class: center, middle
-# Be visible.
-
----
-class: center, middle
-# Be customer-oriented.
-
----
-class: center, middle
-# Be people oriented.
+## Leaders Eat Last.
+### 💡 leaders delegate the most interesting work to others.
 ???
-would they follow you?
+you should enjoy seeing your people working on the coolest project more than you doing coolest project.
 
 ---
 class: center, middle
-# Be good to people.
-### Now send hugs to a person that loves you. ❤️
+## Leadership means **serving** people so they get maximum **DRIVE**.
+### autonomy - mastery - purpose
 
 ---
 # What's next?
 ## 
-## sizovs.net
-## mustread.tech
-## softskills.audio
-## devternity.com
-## principal.dev (next level)
+## [sizovs.net](https://sizovs.net)
+## [softskills.audio](https://softskills.audio)
+## [devternity.com](https://devternity.com)
+## [principal.dev](https://principal.dev) (next level)
 
 ---
 class: center, middle
